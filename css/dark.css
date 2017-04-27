@@ -1,0 +1,223 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #858585;
+}
+
+.videoWrapper {
+    border: 1px solid #1c1c1c;
+}
+
+body {
+    background: #141414;
+    color: #eee;
+}
+
+label#menuOpen{
+    color: #fff;
+}
+
+.header-background {
+    background: rgba(0,0,0,0.75);
+}
+
+header#header nav#desktop ul.sub-menu li a:hover {
+    color: #fff;
+}
+
+header#header nav#desktop ul.sub-menu {
+    background: #1c1c1c;
+}
+
+header#header nav#desktop ul.sub-menu li a {
+    color: #fafafa;
+}
+
+nav#mobile {
+    background: #1c1c1c;
+}
+
+nav#mobile ul li {
+    border-bottom: 1px solid #141414;
+}
+
+nav#mobile a {
+    color: #fafafa;
+}
+
+nav#mobile a:hover {
+    color: #fafafa;
+}
+
+#video-list-container, #featured {
+    background: #141414;
+}
+
+#single-video-container {
+    background: #111;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+}
+
+.video-category a h3:hover {
+    color: #fff;
+}
+
+.vs-full-screen-video {
+    background: rgba(0,0,0,0.9);
+}
+
+/* ==== VIDEO HEADER ==== */
+
+.vs-video-header {
+    background: #141414;
+}
+
+.vs-video-header:before {
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.25) 100%);
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.25) 100%); 
+    background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );
+}
+
+.vs-video-details p {
+    color: #eee;
+}
+
+/* ==== Search Form ==== */
+
+#searchform input[type="submit"] {
+    background: #e50914;
+}
+/* ==== Blog Content ==== */
+
+.post-meta-data {
+    color: #858585;
+}
+
+#sidebar {
+    background: #1c1c1c;
+    border-top: 1px solid #353535;
+}
+
+/* ==== Footer ==== */
+
+footer {
+    background: #1c1c1c;
+    border-top: 1px solid #353535;
+}
+
+footer a, #sidebar ul li a {
+    color: #858585;
+}
+
+footer a:hover, #sidebar ul li a:hover {
+    color: #E50914;
+}
+
+#page404 h1 {
+    color: #fafafa;
+}
+
+#page404 p {
+    color: #fafafa;
+}
+
+/* === TAGS ==== */
+
+a[rel="tag"] {
+    background: #1c1c1c;
+}
+
+.navigation a, .navigation span {
+    background: #353535;
+    color: #fff;
+}
+/* ==== WordPress ==== */
+
+.wp-caption {
+    background: #1c1c1c;
+}
+
+/* ==== Tables ==== */
+
+table {
+    border: 1px solid #353535;
+}
+
+th, td {
+    border: 1px solid #353535;
+}
+
+/* ==== COMMENTS ==== */
+
+.comment {
+    padding: 10px;
+    background: #1c1c1c;
+    border-top: 1px solid #353535;
+}
+
+.comment.parent .comment {
+    float: none;
+}
+
+.comment p {
+    
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, form.comment-form input[type="text"], form.comment-form input[type="email"], form.comment-form input[type="password"], form.comment-form textarea, select {
+    background: #1c1c1c;
+    border: 1px solid #353535;
+}
+
+select {
+    background-color:#1c1c1c;
+}
+
+select option {
+    background: transparent;
+}
+
+select:focus, select.focus {
+    background-color: #1c1c1c;
+    outline: none;
+}
+
+/* ==== LOGIN FORMS ==== */
+
+#vs-full-screen-login {
+    background: rgba(0,0,0,0.9);
+}
+
+#vs-login-form  {
+    background: #333;
+}
+
+/* ==== MEMBERSHIP STYLES ==== */
+
+.rvs-membership-item {
+    background: #1c1c1c;
+    border: 1px solid #353535;
+}
+
+/* WP VIDEO MEMBERSHIP OVERWRITE */
+
+#savingData {
+    background: #141414 !important;
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 680px) {
+    
+
+    
+}
+
+@media screen and (min-width: 960px) {
+#sidebar {
+    border-top: none;
+    border-left: 1px solid #353535;
+}
+    
+}

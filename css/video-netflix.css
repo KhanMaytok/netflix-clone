@@ -1,0 +1,134 @@
+.vs-full-screen-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    padding-bottom: 50px;
+}
+
+
+#single-netflix-video-container {
+    padding: 2em 0;
+}
+
+#single-netflix-video-container .videoWrapper {
+    height: 56.25vw;
+    width: 100vw; 
+    padding-bottom: 0;
+}
+
+#vs-video-back {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#vs-video-back .fa {
+    cursor: pointer;
+    font-size: 20px;
+    color: #E50914;
+}
+
+/* ==== HEADER ==== */
+
+.vs-video-header {
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    max-height: 850px;
+}
+
+.vs-video-header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.vs-video-header img {
+    width: 100%;
+}
+
+.vs-video-details {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    padding: 100px 4% 0;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.vs-video-details h1 {
+    color: #e50914;
+}
+
+.vs-video-details p:last-of-type {
+    margin: 10px 0;
+}
+
+label#vs-more-video-info, label#vs-less-video-info {
+    display: block;
+    margin: 15px 0;
+    color: #e50914;
+    cursor: pointer;
+}
+
+label#vs-less-video-info {
+    display: none;
+}
+
+.vs-video-details .button {
+    margin: 0 0 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: none;
+}
+
+.vs-video-details .button .fa {
+    font-size: 18px;
+}
+
+.vs-video-details .button:hover {
+    opacity: 1;
+    background: #353535;
+}
+
+.vs-video-details .button:hover  .fa {
+    margin-left: 5px;
+}
+
+.vs-video-description {
+    max-height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 680px) {
+    
+.vs-video-details {
+    padding: 150px 4% 100px;
+    width: 500px;
+}
+    
+.vs-video-description {
+    min-height:170px;
+}
+    
+}
+
+@media screen and (min-width: 960px) {
+    
+    
+}
